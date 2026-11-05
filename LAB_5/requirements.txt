@@ -1,0 +1,6 @@
+cryptography
+defusedxml
+pylint
+bandit
+flake8
+pytest

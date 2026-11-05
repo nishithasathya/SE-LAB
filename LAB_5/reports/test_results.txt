@@ -1,0 +1,34 @@
+============================= test session starts ==============================
+platform darwin -- Python 3.11.9, pytest-9.2.0, pluggy-1.7.0 -- /Users/nishitha/Documents/SE-LAB-LAB5/LAB_5/.venv/bin/python
+cachedir: .pytest_cache
+rootdir: /Users/nishitha/Documents/SE-LAB-LAB5/LAB_5
+plugins: platformdirs-4.14.5
+collecting ... collected 25 items
+
+tests/test_tax_calculator.py::test_calculate_slab_tax PASSED             [  4%]
+tests/test_tax_calculator.py::test_new_regime_tax PASSED                 [  8%]
+tests/test_tax_calculator.py::test_new_regime_tax_negative_salary PASSED [ 12%]
+tests/test_tax_calculator.py::test_basic_exemption PASSED                [ 16%]
+tests/test_tax_calculator.py::test_negative_age PASSED                   [ 20%]
+tests/test_tax_calculator.py::test_old_regime_tax PASSED                 [ 24%]
+tests/test_tax_calculator.py::test_negative_deductions PASSED            [ 28%]
+tests/test_tax_calculator.py::test_better_regime PASSED                  [ 32%]
+tests/test_tax_calculator.py::test_valid_pan PASSED                      [ 36%]
+tests/test_tax_calculator.py::test_invalid_pan[ABCDE1234] PASSED         [ 40%]
+tests/test_tax_calculator.py::test_invalid_pan[ABCDE1234FXYZ] PASSED     [ 44%]
+tests/test_tax_calculator.py::test_invalid_pan[abcde1234f] PASSED        [ 48%]
+tests/test_tax_calculator.py::test_invalid_pan[12345ABCDE] PASSED        [ 52%]
+tests/test_tax_calculator.py::test_invalid_pan[] PASSED                  [ 56%]
+tests/test_tax_calculator.py::test_invalid_pan[None] PASSED              [ 60%]
+tests/test_tax_calculator.py::test_encrypt_pan PASSED                    [ 64%]
+tests/test_tax_calculator.py::test_encryption_uses_random_nonce PASSED   [ 68%]
+tests/test_tax_calculator.py::test_encrypted_pan_can_be_decrypted PASSED [ 72%]
+tests/test_tax_calculator.py::test_missing_encryption_key PASSED         [ 76%]
+tests/test_tax_calculator.py::test_invalid_encryption_key PASSED         [ 80%]
+tests/test_tax_calculator.py::test_signing_key PASSED                    [ 84%]
+tests/test_tax_calculator.py::test_parse_form16 PASSED                   [ 88%]
+tests/test_tax_calculator.py::test_parse_form16_missing_element PASSED   [ 92%]
+tests/test_tax_calculator.py::test_parse_form16_invalid_values PASSED    [ 96%]
+tests/test_tax_calculator.py::test_parse_form16_invalid_xml PASSED       [100%]
+
+============================== 25 passed in 0.07s ==============================
